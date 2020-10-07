@@ -15,4 +15,9 @@ public class Calculator : MonoBehaviour
     {
         
     }
+
+    public string Calculat(string lol)
+    {
+        return "Calculat";
+    }
 }

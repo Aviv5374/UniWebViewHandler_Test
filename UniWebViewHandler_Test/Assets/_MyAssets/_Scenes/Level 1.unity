@@ -843,7 +843,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 878290628}
@@ -1480,7 +1480,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1552142305}
@@ -2016,7 +2016,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 538133213}
@@ -2148,7 +2148,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 559311731}
@@ -2280,7 +2280,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1055223662}
@@ -2680,7 +2680,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 145919280}
@@ -2812,7 +2812,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 27432410}
@@ -3344,7 +3344,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 63614797}
@@ -3582,7 +3582,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 2053368727}
@@ -3887,7 +3887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '?'
+  m_text: C
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4048,7 +4048,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1264031137}
@@ -4180,7 +4180,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 47442750}
@@ -4312,7 +4312,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 354869104}
@@ -4578,7 +4578,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1512008766}
@@ -4907,6 +4907,7 @@ GameObject:
   - component: {fileID: 1662119004}
   - component: {fileID: 1662119006}
   - component: {fileID: 1662119007}
+  - component: {fileID: 1662119008}
   m_Layer: 5
   m_Name: Calculator Panel
   m_TagString: Untagged
@@ -5015,6 +5016,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   calculatorScreen: {fileID: 1370872636}
+--- !u!114 &1662119008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662119002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f41ac28fac79a42a5a9fb6a2ce822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1710822944
 GameObject:
   m_ObjectHideFlags: 0
@@ -5099,7 +5112,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1607752373}
@@ -5231,7 +5244,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1619103004}
@@ -5431,7 +5444,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1662119007}
         m_TargetAssemblyTypeName: CalculatorVeiw, Assembly-CSharp
-        m_MethodName: OnTabb
+        m_MethodName: OnTabbed
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1154589881}
