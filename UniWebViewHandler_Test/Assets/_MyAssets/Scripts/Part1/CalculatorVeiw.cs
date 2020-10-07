@@ -23,15 +23,15 @@ public class CalculatorVeiw : MonoBehaviour
 
     }
 
-    public void OnTabbed(GameObject buttenTMP)
+    public void OnTabbed(GameObject buttonTMP)
     {
-        string newTXT = buttenTMP.GetComponent<TextMeshProUGUI>().text;
+        string buttonTXT = buttonTMP.GetComponent<TextMeshProUGUI>().text;
 
-        if (newTXT == "=")
+        if (buttonTXT == "=")
         {
             calculatorScreen.text = calculator.Calculat(calculatorScreen.text);
         }
-        else if (newTXT == "C")
+        else if (buttonTXT == "C")
         {
             calculatorScreen.text = "0";
         }
@@ -39,11 +39,11 @@ public class CalculatorVeiw : MonoBehaviour
         {
             if (calculatorScreen.text == "0")
             {
-                calculatorScreen.text = newTXT;
+                calculatorScreen.text = buttonTXT;
             }
             else
             {
-                calculatorScreen.text += newTXT;
+                calculatorScreen.text += buttonTXT;
             }
         }
 
